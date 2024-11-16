@@ -118,6 +118,7 @@ body {
     font-weight: 400;
 }
 
+/* Aplica style quando valor menor que 1200px */
 @media (max-width: 1200px) {
 
     .cabecalho {
@@ -130,5 +131,10 @@ body {
 
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5%;
     }
+
+    .apresentacao__conteudo { 
+        width: auto;
+    }    
 }
